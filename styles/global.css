@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+@layer base {
+  body {
     background-color: black;
     font-family: sans-serif;
+  }
 }
