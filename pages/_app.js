@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-import '../styles/global.css'
+import '../styles/globals.css'
 import { ThemeProvider } from 'next-themes'
 import { AnimatePresence } from 'framer-motion'
 
