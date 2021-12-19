@@ -25,7 +25,7 @@ module.exports = {
           500: "#0f1115",
           700: "#202125",
         },
-        thistle :{
+        thistle: {
           DEFAULT: "#F5F5F5"
         }
       },
@@ -36,5 +36,7 @@ module.exports = {
       boxShadow: ["dark"],
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 };

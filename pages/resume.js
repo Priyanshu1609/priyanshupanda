@@ -46,19 +46,18 @@ const resume = () => {
                         <h5 className="my-2 text-xl font-bold">
                             Computer Science Engineering
                         </h5>
-                        <p className="font-semibold">Academy of Technology (2017-2021)</p>
+                        <p className="font-semibold">National Institute of Technology, Rourkela (2020-2024)</p>
                         <p className="my-3">
-                            I am currently pursuing B.tech in Computer Science Engineering
-                            from Academy of Technology
+                            I am currently pursuing B.tech in Chemical Engineering at National Institute of Technology, Rourkela
                         </p>
                     </div>
                 </motion.div>
                 <motion.div  variants={variants} initial="initial" animate="animate">
                     <h5 className="my-3 text-2xl font-bold">Experience</h5>
                     <div className="">
-                        <h5 className="my-2 text-xl font-bold">Software Developer Jr.</h5>
-                        <p className="font-semibold">Tata Consultancy Services</p>
-                        <p className="my-3">I donot know why I am doing this job</p>
+                        <h5 className="my-2 text-xl font-bold">Web Developer </h5>
+                        <p className="font-semibold">AIChE ESC</p>
+                        <p className="my-3">Currently webmaster at ESC</p>
                     </div>
                 </motion.div>
             </div>

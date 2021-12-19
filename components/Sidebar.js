@@ -4,6 +4,7 @@ import { GiTie } from 'react-icons/gi'
 import { useTheme } from 'next-themes'
 import Image from "next/image";
 
+
 const Sidebar = () => {
 
     const { theme, setTheme } = useTheme();
@@ -12,7 +13,7 @@ const Sidebar = () => {
         <div className="flex flex-col flex-grow my-16 ">
 
             <div>
-                <Image src="https://vercel.com/api/www/avatar/DWiGygyhKvYDRTeTYbJeI83C?&s=60" alt="me" width="128" height="128" className="mx-auto rounded-full " />
+                <Image src="/images/me.JPG" alt="me" width="128" height="128" className="mx-auto rounded-full " />
                 <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
                     <span className="text-green">Priyanshu</span>  Kumar Panda
                 </h3>

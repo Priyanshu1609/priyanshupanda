@@ -62,7 +62,7 @@ const Projects = () => {
   return (
 
     <motion.div variants={page}
-      initial="initial" animate="animate" exit="exit" className="overflow-y-scroll">
+      initial="initial" animate="animate" exit="exit" className="overflow-y-scroll scrollbar-hide">
       <ProjectsNavbar handlerFilterCategory={handlerFilterCategory} active={active} />
       <motion.div className="relative grid flex-grow grid-cols-12 gap-4 my-3 " variants={stagger} initial="initial" animate="animate">
         {
