@@ -13,7 +13,8 @@ const Sidebar = () => {
         <div className="flex flex-col flex-grow my-16 ">
 
             <div>
-                <Image src="/images/me.JPG" alt="me" width="128" height="128" className="mx-auto rounded-full " />
+   
+                <img src="https://i.ibb.co/b6YnY1d/me.jpg" alt="me" width="128" height="128" className="mx-auto rounded-full " />
                 <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
                     <span className="text-green">Priyanshu</span>  Kumar Panda
                 </h3>
