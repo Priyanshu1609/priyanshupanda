@@ -22,12 +22,12 @@ const Sidebar = () => {
                 <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                     I am a <Typical
                         steps={[
-                            'Frontend Developer', 2000,
-                            'Web3 Developer', 2000,
-                            'Blockchain developer', 2000,
-                            'Backend Developer', 2000,
-                            'Competitve Programmer', 2000,
-                            'Student', 2000,        
+                            'Frontend Developer', 3000,
+                            'Web3 Developer', 3000,
+                            'Blockchain developer', 3000,
+                            'Backend Developer', 3000,
+                            'Competitve Programmer', 3000,
+                            'Student', 3000,        
                         ]}
                         loop={Infinity}
                         wrapper="a"

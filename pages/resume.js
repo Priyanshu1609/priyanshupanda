@@ -44,7 +44,7 @@ const resume = () => {
                     <h5 className="my-3 text-2xl font-bold">Education</h5>
                     <div className="">
                         <h5 className="my-2 text-xl font-bold">
-                            Computer Science Engineering
+                            Chemical Engineering
                         </h5>
                         <p className="font-semibold">National Institute of Technology, Rourkela (2020-2024)</p>
                         <p className="my-3">
