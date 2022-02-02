@@ -40,6 +40,7 @@ const ProjectCard = ({ project: { image_path, name, github_url, deployed_url, de
                 layout="responsive"
                 height="150"
                 width="300"
+                className="rounded-sm"
             />
 
             <p className="my-2 text-center">{name}</p>
@@ -55,6 +56,7 @@ const ProjectCard = ({ project: { image_path, name, github_url, deployed_url, de
                             layout="responsive"
                             height="150"
                             width="300"
+                            className="rounded-sm"
                         />
                         <motion.div variants={variants} className="flex justify-center my-4 space-x-3">
                             <a

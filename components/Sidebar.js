@@ -3,6 +3,7 @@ import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
 import { useTheme } from 'next-themes'
 import Image from "next/image";
+import Typical from 'react-typical'
 
 
 const Sidebar = () => {
@@ -10,15 +11,28 @@ const Sidebar = () => {
     const { theme, setTheme } = useTheme();
 
     return (
-        <div className="flex flex-col flex-grow my-16 ">
+        <div className="flex flex-col flex-grow my-16 items-center justify-center">
 
             <div>
-   
+
                 <img src="https://i.ibb.co/b6YnY1d/me.jpg" alt="me" width="128" height="128" className="mx-auto rounded-full " />
                 <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
                     <span className="text-green">Priyanshu</span>  Kumar Panda
                 </h3>
-                <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Developer</p>
+                <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
+                    I'm a <Typical
+                        steps={[
+                            'Frontend Developer', 2000,
+                            'Web3 Developer', 2000,
+                            'Blockchain developer', 2000,
+                            'Backend Developer', 2000,
+                            'Competitve Programmer', 2000,
+                            'Student', 2000,        
+                        ]}
+                        loop={Infinity}
+                        wrapper="a"
+                    />
+                </p>
                 <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href="..." download='name '><GiTie className="w-6 h-6" />Download Resume</a>
             </div>
             {/* <div>
@@ -28,14 +42,11 @@ const Sidebar = () => {
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">RESUME</p>
             </div> */}
 
-            <div className="flex justify-around w-9/12 mx-auto my-5 text-red-500 md:w-full">
-                <a href="...">
-                    <AiFillYoutube className="w-8 h-8 cursor-pointer" />
-                </a>
-                <a href="...">
+            <div className="flex justify-evenly w-9/12 mx-auto my-5 text-red-500 md:w-full">
+                <a href="https://www.linkedin.com/in/priyanshu-kumar-panda-38910212b/" target="_blank">
                     <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="...">
+                <a href="https://github.com/Priyanshu1609"  target="_blank">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>

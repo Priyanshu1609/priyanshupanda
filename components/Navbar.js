@@ -25,7 +25,7 @@ const Navbar = () => {
         if (pathname === '/projects') setActive('Projects')
     }, [pathname])
     return (
-        <div className="flex justify-between px-5 py-3 my-3 ">
+        <div className="flex justify-between px-5 py-3 my-3 mr-4">
             <span className="text-xl font-bold border-b-4 border-green text-green md:text-2xl ">{active}</span>
             <div className="flex space-x-3 text-red-400 font-lg">
                 <NavItem active={active} name="About" route="/" setActive={setActive} />

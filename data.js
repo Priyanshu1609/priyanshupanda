@@ -94,32 +94,121 @@ export const tools = [
     name: "After Effects, Preimier Pro",
     level: "60",
   },
-  
+
 ];
 
 export const projects = [
 
-  // {
-  //   name: "Realtime Chat App",
-  //   image_path: "/images/chatapp.jpg",
-  //   deployed_url: "https://sumit-chat.netlify.app/",
-  //   github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-  //   category: ["node", "react"],
-  //   description:
-  //     "Basic Realtime Chat App where one can create a room can talk to each other",
-  //   key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-  // },
+  {
+    name: "Realtime Decentralised Chat App",
+    image_path: "/images/web3-chat.png",
+    deployed_url: "http://web-3-chat-app.vercel.app/",
+    github_url: "https://github.com/Priyanshu1609/Web-3-chat-app",
+    category: ["Web3"],
+    description:
+      "Basic Realtime Decentralised Chat App using Moralis where user is connected decentrally",
+    key_techs: ["React", "Tailwind", "Solidity"],
+  },
+  {
+    name: "Linkedin  Clone",
+    image_path: "/images/linkedin.png",
+    deployed_url: "https://linkedin-clone-4b75b.web.app/",
+    github_url: "https://github.com/Priyanshu1609/Linked-clone",
+    category: ["react"],
+    description:
+      "Linkedin clone | One can signin , comment , post .",
+    key_techs: ["redux", "react", "firebase"],
+  },
+  {
+    name: "Task Scheduler App",
+    image_path: "/images/task-scheduler.png",
+    deployed_url: "https://happy-johnson-ecfcee.netlify.app/",
+    github_url: "https://github.com/Priyanshu1609/Task-scheduler",
+    category: ["react"],
+    description:
+      "Task scheduler app | One can create task , edit and delete",
+    key_techs: ["react", "firebase", "tailwind",],
+  },
+  {
+    name: "Google  Clone",
+    image_path: "/images/google.png",
+    deployed_url: "http://google-clone-drab-nu.vercel.app/",
+    github_url: "https://github.com/Priyanshu1609/Google-clone",
+    category: ["react"],
+    description:
+      "Google clone using google api",
+    key_techs: ["react", "tailwind", "api"],
+  },
+  {
+    name: "Anime Search",
+    image_path: "/images/anime-search.png",
+    deployed_url: "https://anime-search-tawny.vercel.app/",
+    github_url: "https://github.com/Priyanshu1609/Anime-search",
+    category: ["react"],
+    description:
+      "Anime search app where one can search animes, know more about it",
+    key_techs: ["react", "tailwind", "api"],
+  },
+  {
+    name: "Spoitfy  Clone",
+    image_path: "/images/spotify.png",
+    deployed_url: "http://spotify-clone-sigma-puce.vercel.app/",
+    github_url: "https://github.com/Priyanshu1609/Spotify-clone",
+    category: ["react"],
+    description:
+      "Spotify clone using spotify api. Play , pause , skip , change volume",
+    key_techs: ["react", "tailwind", "api"],
+  },
+  {
+    name: "Climate change api",
+    image_path: "/images/",
+    deployed_url: "https://via.placeholder.com/150x300.png?text=Climate+change+api",
+    github_url: "https://github.com/Priyanshu1609/climate-change-news-api",
+    category: ["node"],
+    description:
+      "An api for fetching climate change news",
+    key_techs: ["node", "api", "axios"],
+  },
+  {
+    name: "BlackJacks game",
+    image_path: "/images/blackjacks.png",
+    deployed_url: "https://priyanshu1609.github.io/BLACK-JACKS.github.io/",
+    github_url: "https://github.com/Priyanshu1609/BLACK-JACKS.github.io",
+    category: ["Javascript"],
+    description:
+      "Black jacks game using vanila javascript",
+    key_techs: ["javascript", "html", "css"],
+  },
+  {
+    name: "Quiz app",
+    image_path: "/images/quiz.png",
+    deployed_url: "https://github.com/Priyanshu1609/Quiz-App.github.io",
+    github_url: "https://github.com/Priyanshu1609/Quiz-App.github.io",
+    category: ["Javascript"],
+    description:
+      "Quiz app using vanila javascript",
+    key_techs: ["javascript", "html", "css"],
+  },
+  {
+    name: "Text analyser",
+    image_path: "/images/text.png",
+    deployed_url: "https://github.com/Priyanshu1609/Text-analyser",
+    github_url: "hhttps://github.com/Priyanshu1609/Text-analyser",
+    category: ["Javascript"],
+    description:
+      "Text analyser app for counting words, length, size, capatilize etc",
+    key_techs: ["javascript", "html", "css"],
+  },
+  {
+    name: "Food ordering app",
+    image_path: "/images/food.png",
+    deployed_url: "https://github.com/Priyanshu1609/OnGree.github.io",
+    github_url: "https://github.com/Priyanshu1609/OnGree.github.io",
+    category: ["Javascript"],
+    description:
+      "Food ordering app ui",
+    key_techs: ["javascript", "html", "css"],
+  },
 
-  // {
-  //   name: "Linked  Clone",
-  //   image_path: "/images/tweetme.jpg",
-  //   deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-  //   github_url: "https://github.com/Dey-Sumit/tweetme",
-  //   category: ["django", "react"],
-  //   description:
-  //     "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-  //   key_techs: ["React", "Django", "Django REST API"],
-  // },
 
-  
 ];
