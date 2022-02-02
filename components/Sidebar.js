@@ -20,7 +20,7 @@ const Sidebar = () => {
                     <span className="text-green">Priyanshu</span>  Kumar Panda
                 </h3>
                 <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-                    I'm a <Typical
+                    I am a <Typical
                         steps={[
                             'Frontend Developer', 2000,
                             'Web3 Developer', 2000,
@@ -43,10 +43,10 @@ const Sidebar = () => {
             </div> */}
 
             <div className="flex justify-evenly w-9/12 mx-auto my-5 text-red-500 md:w-full">
-                <a href="https://www.linkedin.com/in/priyanshu-kumar-panda-38910212b/" target="_blank">
+                <a href="https://www.linkedin.com/in/priyanshu-kumar-panda-38910212b/" target="_blank" rel="noreferrer">
                     <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="https://github.com/Priyanshu1609"  target="_blank">
+                <a href="https://github.com/Priyanshu1609"  target="_blank" rel="noreferrer">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>

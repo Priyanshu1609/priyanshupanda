@@ -35,12 +35,11 @@ const ProjectCard = ({ project: { image_path, name, github_url, deployed_url, de
             <Image
                 src={image_path}
                 alt={name}
-                className="cursor-pointer"
+                className="cursor-pointer, rounded-sm"
                 onClick={() => setShowDetail(true)}
                 layout="responsive"
                 height="150"
                 width="300"
-                className="rounded-sm"
             />
 
             <p className="my-2 text-center">{name}</p>
