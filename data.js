@@ -101,7 +101,7 @@ export const projects = [
 
   {
     name: "Realtime Decentralised Chat App",
-    image_path: "/images/web3-chat.png",
+    image_path: "/web3-chat.png",
     deployed_url: "http://web-3-chat-app.vercel.app/",
     github_url: "https://github.com/Priyanshu1609/Web-3-chat-app",
     category: ["Web3"],
@@ -111,7 +111,7 @@ export const projects = [
   },
   {
     name: "Linkedin  Clone",
-    image_path: "/images/linkedin.png",
+    image_path: "/linkedin.png",
     deployed_url: "https://linkedin-clone-4b75b.web.app/",
     github_url: "https://github.com/Priyanshu1609/Linked-clone",
     category: ["react"],
@@ -121,7 +121,7 @@ export const projects = [
   },
   {
     name: "Task Scheduler App",
-    image_path: "/images/task-scheduler.png",
+    image_path: "/task-scheduler.png",
     deployed_url: "https://happy-johnson-ecfcee.netlify.app/",
     github_url: "https://github.com/Priyanshu1609/Task-scheduler",
     category: ["react"],
@@ -131,7 +131,7 @@ export const projects = [
   },
   {
     name: "Google  Clone",
-    image_path: "/images/google.png",
+    image_path: "/google.png",
     deployed_url: "http://google-clone-drab-nu.vercel.app/",
     github_url: "https://github.com/Priyanshu1609/Google-clone",
     category: ["react"],
@@ -141,7 +141,7 @@ export const projects = [
   },
   {
     name: "Anime Search",
-    image_path: "/images/anime-search.png",
+    image_path: "/anime-search.png",
     deployed_url: "https://anime-search-tawny.vercel.app/",
     github_url: "https://github.com/Priyanshu1609/Anime-search",
     category: ["react"],
@@ -151,7 +151,7 @@ export const projects = [
   },
   {
     name: "Spoitfy  Clone",
-    image_path: "/images/spotify.png",
+    image_path: "/spotify.png",
     deployed_url: "http://spotify-clone-sigma-puce.vercel.app/",
     github_url: "https://github.com/Priyanshu1609/Spotify-clone",
     category: ["react"],
@@ -161,7 +161,7 @@ export const projects = [
   },
   {
     name: "Climate change api",
-    image_path: "/images/",
+    image_path: "/",
     deployed_url: "https://via.placeholder.com/150x300.png?text=Climate+change+api",
     github_url: "https://github.com/Priyanshu1609/climate-change-news-api",
     category: ["node"],
@@ -171,7 +171,7 @@ export const projects = [
   },
   {
     name: "BlackJacks game",
-    image_path: "/images/blackjacks.png",
+    image_path: "/blackjacks.png",
     deployed_url: "https://priyanshu1609.github.io/BLACK-JACKS.github.io/",
     github_url: "https://github.com/Priyanshu1609/BLACK-JACKS.github.io",
     category: ["Javascript"],
@@ -181,7 +181,7 @@ export const projects = [
   },
   {
     name: "Quiz app",
-    image_path: "/images/quiz.png",
+    image_path: "/quiz.png",
     deployed_url: "https://github.com/Priyanshu1609/Quiz-App.github.io",
     github_url: "https://github.com/Priyanshu1609/Quiz-App.github.io",
     category: ["Javascript"],
@@ -191,7 +191,7 @@ export const projects = [
   },
   {
     name: "Text analyser",
-    image_path: "/images/text.png",
+    image_path: "/text.png",
     deployed_url: "https://github.com/Priyanshu1609/Text-analyser",
     github_url: "hhttps://github.com/Priyanshu1609/Text-analyser",
     category: ["Javascript"],
@@ -201,7 +201,7 @@ export const projects = [
   },
   {
     name: "Food ordering app",
-    image_path: "/images/food.png",
+    image_path: "/food.png",
     deployed_url: "https://github.com/Priyanshu1609/OnGree.github.io",
     github_url: "https://github.com/Priyanshu1609/OnGree.github.io",
     category: ["Javascript"],
